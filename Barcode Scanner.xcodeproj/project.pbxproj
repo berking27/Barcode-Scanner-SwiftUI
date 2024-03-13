@@ -11,6 +11,7 @@
 		AA6B8A7A2BA10086005F716E /* BarcodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6B8A792BA10086005F716E /* BarcodeScannerView.swift */; };
 		AA6B8A7C2BA10088005F716E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6B8A7B2BA10088005F716E /* Assets.xcassets */; };
 		AA6B8A7F2BA10088005F716E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA6B8A7E2BA10088005F716E /* Preview Assets.xcassets */; };
+		AA9B6E722BA1854E003240C5 /* ScannerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9B6E712BA1854E003240C5 /* ScannerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AA6B8A792BA10086005F716E /* BarcodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeScannerView.swift; sourceTree = "<group>"; };
 		AA6B8A7B2BA10088005F716E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA6B8A7E2BA10088005F716E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA9B6E712BA1854E003240C5 /* ScannerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				AA6B8A792BA10086005F716E /* BarcodeScannerView.swift */,
 				AA6B8A7B2BA10088005F716E /* Assets.xcassets */,
 				AA6B8A7D2BA10088005F716E /* Preview Content */,
+				AA9B6E712BA1854E003240C5 /* ScannerVC.swift */,
 			);
 			path = "Barcode Scanner";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9B6E722BA1854E003240C5 /* ScannerVC.swift in Sources */,
 				AA6B8A7A2BA10086005F716E /* BarcodeScannerView.swift in Sources */,
 				AA6B8A782BA10086005F716E /* Barcode_ScannerApp.swift in Sources */,
 			);
