@@ -88,7 +88,9 @@ final class ScannerVC: UIViewController {
         previewLayer!.videoGravity = .resizeAspectFill
         view.layer.addSublayer(previewLayer!)
         
-        captureSession.startRunning()
+        DispatchQueue.global(qos: .background).async {
+            self.captureSession.startRunning()
+        }
     }
 }
 
@@ -111,6 +113,7 @@ extension ScannerVC: AVCaptureMetadataOutputObjectsDelegate {
             return
         }
         
+        captureSession.stopRunning()
         scannerDeleagate?.didFind(barcode: barcode)
     }
 }
